@@ -1,0 +1,23 @@
+@keyframes slideLeft {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  
+  .slide-text {
+    animation: slideLeft 12s linear infinite;
+  }
+  
+  body,html,#root{
+    height: 100%;
+    margin: 0%;
+  }
+
+  .app-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
