@@ -37,17 +37,29 @@ Built with <b>React</b> for the frontend and <b>Spring Boot (Java)</b> for the b
 ## 📁 Project Structure
 StudentLearningApp/
 │
+
 ├── frontend/ # React Frontend
+
 │ ├── src/
+
 │ ├── public/
+
 │ ├── package.json
+
 │ └── .gitignore
+
 │
+
 └── backend/ # Spring Boot Backend
+
 ├── src/main/java/
+
 ├── src/main/resources/
+
 ├── pom.xml
+
 └── .gitignore
+
 🗄️ Database Configuration
 
 In your application.properties (inside backend):
