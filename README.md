@@ -7,7 +7,7 @@ Built with <b>React</b> for the frontend and <b>Spring Boot (Java)</b> for the b
 
 ---
 
-## 🚀 Tech Stack
+
 
 ### 🖥️ Frontend
 - ⚛️ **React.js** (with Hooks & Components)
@@ -62,11 +62,16 @@ StudentLearningApp/
 
 🗄️ Database Configuration
 
+
 In your application.properties (inside backend):
 
+
 spring.datasource.url=jdbc:mysql://localhost:3306/student_learning_app
+
 spring.datasource.username=root
+
 spring.datasource.password=yourpassword
+
 spring.jpa.hibernate.ddl-auto=update
 
 🧠 Future Enhancements
